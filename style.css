@@ -11,20 +11,76 @@ a:hover {
 }
 
 #demo {
-  padding: 20px 0;
+  padding: 50px 0;
 }
 #demo .box {
   width: 200px;
   height: 200px;
   background-color: #5183a7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #demo .box .minibox {
   width: 100px;
   height: 100px;
   background-color: #345783;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+}
+#demo .box .minibox:hover {
+  width: 160px;
+  height: 160px;
 }
 #demo .box .minibox h1 {
   font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+#demo-two {
+  padding: 50px 0;
+}
+#demo-two .box {
+  width: 200px;
+  height: 100px;
+  background-color: #88637b;
+  border-radius: 5px;
+  border: 5px solid #88637b;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  transition: 1s;
+  cursor: pointer;
+}
+#demo-two .box:hover {
+  background-color: #444152;
+}
+#demo-two .box h1 {
+  font-size: 20px;
+  color: white;
+}
+
+#demo-three {
+  padding: 50px 0;
+}
+#demo-three .box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #966d49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+}
+#demo-three .box:hover {
+  border-radius: 15px;
+}
+#demo-three .box h1 {
+  font-size: 25px;
   font-weight: 700;
   color: white;
 }/*# sourceMappingURL=style.css.map */
