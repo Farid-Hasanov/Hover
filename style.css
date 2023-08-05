@@ -121,8 +121,35 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 #demo-text .box h1 {
   font-size: 30px;
   color: white;
+}
+#demo-text .change {
+  position: absolute;
+  left: 400px;
+}
+
+#demo-texttwo {
+  padding: 50px 0;
+}
+#demo-texttwo .box {
+  width: 300px;
+  height: 200px;
+  background-color: #7b9f6e;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#demo-texttwo .box h1 {
+  font-size: 30px;
+  color: white;
+}
+#demo-texttwo .change {
+  position: absolute;
+  left: 400px;
 }/*# sourceMappingURL=style.css.map */
